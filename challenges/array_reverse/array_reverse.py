@@ -11,11 +11,10 @@ reverseArray(list2)
 reverseArray(list3)
 
 def reverseArray2(alist):
-    second=0
-    alist[0]==alist[len(alist)-1]
-    alist[len(alist)-1]==second
-    second==alist[0]
-    print(alist)
+    new=alist.copy()
+    anew=new[::-1]
+    print(new,"saassaaasda")
+    print(anew,"sdsd")
 
 reverseArray2(list1)
 reverseArray2(list2)
